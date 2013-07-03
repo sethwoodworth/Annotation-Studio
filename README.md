@@ -11,9 +11,8 @@ and point your annotation studio instance to the API in that config file.
 Set up Rails and Postgres (if you haven't yet, try: https://github.com/thoughtbot/laptop)
 
 Then:
-- ```mkdir annotation-studio```
+- ```git clone git@github.com:hyperstudio/Annotation-Studio.git annotation-studio```
 - ```cd annotation-studio```
-- ```git clone git@github.com:hyperstudio/Annotation-Studio.git```
 - ```bundle install```
 - Create a PostgreSQL database, add the connection information into database.sample.yml and copy that file to database.yml.
 - Update application.yml and database.yml with your configuration preference.
